@@ -1,0 +1,32 @@
+<footer class="site-footer">
+
+  <nav class="navbar navbar-inverse navbar-fixed-bottom">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-div" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="/" class="navbar-brand">{{ site.title }}</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse-div">
+        <div>
+          <ul class="nav navbar-nav">
+            {% for page in site.pages %}
+              {% if page.title %}
+              <li data-url="{{ page.url }}"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+        <ul class="nav navbar-right">
+          {% include social-buttons.html %}
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</footer>
