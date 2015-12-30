@@ -9,4 +9,4 @@ username: jcebuck
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
+#highlighter: rouge
