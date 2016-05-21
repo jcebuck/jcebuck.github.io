@@ -12,4 +12,4 @@ In 2015 I graduated from the University of Southampton in the UK with a BSc in C
 
 Through this blog, I hope to share some of the things that I've learnt, and meet many others with similar interests to me!
 
-You can contact me at: `jcebuck at gmail d0t com`
+You can contact me at: `jcebuck at gmail dot com`
