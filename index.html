@@ -2,6 +2,10 @@
 layout: default
 ---
 
+{% if !site.posts %}
+  <h2><em>No posts yet, coming soon.</em></h2>
+{% endif %}
+
 {% for post in site.posts %}
   <div class="well">
     <small class="pull-right">{{ post.date | date: "%b %-d, %Y" }}</small>
